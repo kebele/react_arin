@@ -1,0 +1,16 @@
+ACIKLAMA
+
+    - kurulum
+    vs code kurulurken oryaya buraya ekleyeyim mi diye sorduğu şeylere evet 
+    nodejs kurulacak
+
+    - react
+    https://reactjs.org/docs/getting-started.html
+    npx create-react-app my-app
+    cd my-app
+    npm start
+
+EGITIM NOTLARI
+
+    src klasörü içini tamamen silip baştan oluşturalım.
+    index.js react'ın başladığı yer, ilk dosyası,
