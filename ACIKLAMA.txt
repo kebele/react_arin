@@ -14,3 +14,5 @@ EGITIM NOTLARI
 
     src klasörü içini tamamen silip baştan oluşturalım.
     index.js react'ın başladığı yer, ilk dosyası,
+    importları yapacağız, react ve reactDOM, 
+
