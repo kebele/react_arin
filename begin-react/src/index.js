@@ -17,45 +17,45 @@ import ReactDOM from "react-dom";
 //className kullanımına dikkat, JSX'de bu şekilde, bazı başka attribute isimleride farklı, bunları yanlış yazıdğımızda bunun için colsole da uyarı alırız,  
 // {...} arasına kodda yazabiliriz, 40-15 mesela, yada aşağıda kodda old. gibi, 
 
-function App() {
-  // return <h1>real madrid</h1>
+// function App() {
+//   // return <h1>real madrid</h1>
 
-  const buttonValue = "benim buton";
-  const str1 = "click "
-  const str2 = "me"
+//   const buttonValue = "benim buton";
+//   const str1 = "click "
+//   const str2 = "me"
 
-  return (
-    <div>
-      {/* {names.map(name => (<h1>{name}</h1>))} */}
-      <button
-        className="jsxCLASS"
-        type="button"
-        style={{
-          padding: "10px",
-          backgroundColor: "red",
-          color: "white",
-          backgroundColor: "green",
-        }}
-      >
-        {buttonValue}
-      </button>
-      <br/>
-      <button
-        className="jsxCLASS"
-        type="button"
-        style={{
-          padding: "10px",
-          backgroundColor: "red",
-          color: "white",
-          backgroundColor: "green",
-        }}
-      >
-        {str1.concat(str2)}
-      </button>
-    </div>
-    // yukarısı JSX yazımı
-  );
-}
+//   return (
+//     <div>
+//       {/* {names.map(name => (<h1>{name}</h1>))} */}
+//       <button
+//         className="jsxCLASS"
+//         type="button"
+//         style={{
+//           padding: "10px",
+//           backgroundColor: "red",
+//           color: "white",
+//           backgroundColor: "green",
+//         }}
+//       >
+//         {buttonValue}
+//       </button>
+//       <br/>
+//       <button
+//         className="jsxCLASS"
+//         type="button"
+//         style={{
+//           padding: "10px",
+//           backgroundColor: "red",
+//           color: "white",
+//           backgroundColor: "green",
+//         }}
+//       >
+//         {str1.concat(str2)}
+//       </button>
+//     </div>
+//     // yukarısı JSX yazımı
+//   );
+// }
 
 //class based comp yapalım
 // class App extends React.Component {
@@ -64,6 +64,15 @@ function App() {
 //     }
 // }
 
+const App = ()=> {
+    return (
+        // <h1>selam</h1>
+        <div>
+            <h1 className="display-1">selamlar</h1>
+        </div>
+    );
+}
+
 //sayfada göstermek, bunun için render etmemiz lazım
 ReactDOM.render(
   //neyi göstereceğim, nerede göstereceğim
@@ -71,3 +80,14 @@ ReactDOM.render(
   document.getElementById("root")
   // document.querySelector('#root')
 );
+
+
+/* 
+functionu arrow şekliden de yapabiliriz
+props ???
+comp lar arasında veri akışı, from parent to child şeklinde
+parent ve child comp oluşturalım, 
+bootstrap ı ekleyelim, cdn ini normal alıp, index.html ye normal yolla ekleyelim, js dosyalarını da ekleyelim, 
+
+
+*/
