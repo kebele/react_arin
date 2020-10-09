@@ -15,7 +15,7 @@ import Card from "./components/Card";
 
 //style="padding: 10px; background-color: red; color : white; border: 2px solid yellow"
 //style yazımında dikkat bir js object şeklinde key:value şeklinde yazılmı var, dikkat
-//classNameName kullanımına dikkat, JSX'de bu şekilde, bazı başka attribute isimleride farklı, bunları yanlış yazıdğımızda bunun için colsole da uyarı alırız,
+//classNameName kullanımına dikkat, JSX'de bu şekilde, bazı başka attribute isimleride farklı, bunları yanlış yazıdğımızda bunun için console da uyarı alırız,
 // {...} arasına kodda yazabiliriz, 40-15 mesela, yada aşağıda kodda old. gibi,
 
 // function App() {
